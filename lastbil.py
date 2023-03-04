@@ -1,10 +1,14 @@
 #Detta är en klass som ärver fordon och man kan skapa egna Objekt av
+import fordon
+
 class Lastbil:
     
 
     #constructor körs först när klass objektet initieras
-    def __init__(self, flakvolym):
+    def __init__(self, fabrikat, color, flakvolym):
         self.flakvolym = flakvolym
+        self.fabrikat = fabrikat
+        self.color = color
         
         
     #funktioner som tillhör en klass kallas för metoder=Metods"
