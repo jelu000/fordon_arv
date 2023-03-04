@@ -17,6 +17,7 @@ lastbils_lista = [scania_rosa, volvobm_orange]
 
 #----------------------------------------------
 #function som listar valt forton
+"""
 def print_fordonslista(fordonslista):
     
     for ettfordon in fordonslista:
@@ -28,6 +29,14 @@ def print_fordonslista(fordonslista):
 
         elif(isinstance(ettfordon  ,personbil.Personbil)):
             print(ettfordon.fabrikat +" Färg: "+ ettfordon.color + ", Bagagevolym: " + str(ettfordon.bagagevolym) +  " L")
+"""
+
+def print_fordonslista(fordonslista):
+    
+    for ettfordon in fordonslista:
+        ettfordon.print_fordon()
+
+
 
 #---------------------------------------------
 

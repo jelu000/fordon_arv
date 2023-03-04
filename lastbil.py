@@ -18,3 +18,6 @@ class Lastbil:
     def get_flakvolym(self):
         return self.flakvolym
     
+    def print_fordon(self):
+        print(self.fabrikat +" Färg: "+ self.color + ", Bagagevolym: " + str(self.flakvolym) +  " L")
+    

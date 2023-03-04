@@ -18,4 +18,6 @@ class Personbil:
     def get_bagagevolym(self):
         return self.bagagevolym
     
+    def print_fordon(self):
+        print(self.fabrikat +" Färg: "+ self.color + ", Bagagevolym: " + str(self.bagagevolym) +  " L")
     
